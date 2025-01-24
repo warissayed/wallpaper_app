@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const _layout = () => {
+const ExplorePage = () => {
   return (
     <View>
-      <Text>_layout</Text>
+      <Text>ExplorePage</Text>
     </View>
   );
 };
 
-export default _layout;
+export default ExplorePage;
 
 const styles = StyleSheet.create({});
