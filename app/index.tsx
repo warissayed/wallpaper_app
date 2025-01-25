@@ -5,17 +5,7 @@ import { Link } from "expo-router";
 const index = () => {
   return (
     <View>
-      <Text>index</Text>
-      <Button title="Press me" onPress={() => console.log("Pressed")} />
-      <Link href={"/"}>
-        <Text>Go to account</Text>
-      </Link>
-      <Link href={` ${String}: /Account`}>
-        <Text> Go to Explore </Text>
-      </Link>
-      <Link href={` ${String}: /Account`}>
-        <Text>Go to Foryou </Text>
-      </Link>
+      <Text>This is the test page it should render</Text>
     </View>
   );
 };
